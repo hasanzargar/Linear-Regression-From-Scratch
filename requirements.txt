@@ -1,0 +1,5 @@
+Numpy
+pandas
+os
+sys
+matplotlib
