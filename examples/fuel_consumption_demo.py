@@ -26,7 +26,6 @@ def run_real_world_test():
     y_pred = model.predict(X_scaled)
     y_pred = y_pred.flatten()
 
-    # ۲. نمایش مقایسه‌ای ۵ داده اول
     print(f"{'real (y)':<15} | {' (y_pred)':<15} | {' (Error)':<15}")
     print("-" * 50)
 
